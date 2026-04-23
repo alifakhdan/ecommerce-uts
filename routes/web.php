@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('login'); // Ganti 'index' dengan nama file blade utamamu
 });
 
 Route::get('/login', function () {
